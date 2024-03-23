@@ -1,0 +1,30 @@
+{
+  "name": "@alfiannuha/convert-libs",
+  "version": "0.0.6",
+  "description": "Library for utils",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/alfiannuha/nodejs-convert-libs.git",
+  "repository": {
+    "url": "https://github.com/alfiannuha/nodejs-convert-libs.git",
+    "type": "git"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "library",
+    "utils",
+    "typescript"
+  ],
+  "author": "alfiannuha",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}
